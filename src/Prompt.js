@@ -1,13 +1,13 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import {
   Modal,
-  Platform,
   Text,
   TextInput,
   TouchableWithoutFeedback,
   View
 } from 'react-native';
 import styles from './styles';
+import PropTypes from 'prop-types';
 
 export default class Prompt extends Component {
   static propTypes = {
